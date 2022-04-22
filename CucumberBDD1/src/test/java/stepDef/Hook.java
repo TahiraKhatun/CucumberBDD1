@@ -1,5 +1,6 @@
 package stepDef;
 
+
 import base.Config;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -9,7 +10,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.util.Strings;
 
 public class Hook extends Config {
-
     public static String envData = System.getProperty("env");
     public static String driverType = System.getProperty("browser");
     public static String url;
@@ -51,4 +51,5 @@ public class Hook extends Config {
             driver.quit();
         }
     }
+
 }
