@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.878 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["User should be able to sign up with valid email address", "Optional[TalentTEK sign up feature test suite]"](1)  Time elapsed: 5.999 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I click on Create My Account button' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I click on Create My Account button")
+public void i_click_on_create_my_account_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I enter student dob")
+public void i_enter_student_dob() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I enter student gender as male")
+public void i_enter_student_gender_as_male() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I agree with from")
+public void i_agree_with_from() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click Create My  Account button")
+public void i_click_create_my_account_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should be able to get my student id")
+public void i_should_be_able_to_get_my_student_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

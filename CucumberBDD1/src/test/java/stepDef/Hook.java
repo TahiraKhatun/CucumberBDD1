@@ -48,7 +48,7 @@ public class Hook extends Config {
                 scenario.attach(screenshot, "image/png", scenario.getName()); // ... and embed it in the report.
             }
         } finally {
-            driver.quit();
+//            driver.quit();
         }
     }
 
