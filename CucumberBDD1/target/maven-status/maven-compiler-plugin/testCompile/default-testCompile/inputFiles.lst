@@ -2,5 +2,7 @@ C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\base\Config.java
 C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\stepDef\Hook.java
 C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\TestRunner.java
 C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\stepDef\signUp.java
-C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\pageObject\signup_page.java
+C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\pageObject\signIn_page.java
+C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\pageObject\signUp_page.java
 C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\stepDef\signIn.java
+C:\Users\raham\Git\CucumberBDD1\CucumberBDD1\src\test\java\pageObject\myProfile_page.java

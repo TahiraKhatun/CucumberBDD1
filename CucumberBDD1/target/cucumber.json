@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-24T00:42:59.036Z",
+        "start_timestamp": "2022-04-26T01:24:04.140Z",
         "before": [
           {
             "result": {
-              "duration": 5589621900,
+              "duration": 2890233400,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2934800,
+              "duration": 2054600,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 500000,
+              "duration": 23412200,
               "status": "passed"
             },
             "line": 3,
@@ -47,16 +47,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 274665900,
+              "status": "passed"
             },
             "line": 4,
             "name": "I click on Create My Account button",
-            "match": {},
+            "match": {
+              "location": "stepDef.signIn.iClickOnCreateMyAccountButton()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 559114000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I enter student information with valid email address",
@@ -64,61 +68,15 @@
               "location": "stepDef.signUp.iEnterStudentInformationWithValidEmailAddress()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "I enter student dob",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "I enter student gender as male",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 500400,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "I agree with from",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I click Create My  Account button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "I should be able to get my student id",
-            "match": {},
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-04-24T00:43:04.684Z",
+        "start_timestamp": "2022-04-26T01:24:07.902Z",
         "before": [
           {
             "result": {
-              "duration": 2256624800,
+              "duration": 1955752100,
               "status": "passed"
             },
             "match": {
@@ -145,6 +103,7 @@
         "steps": [
           {
             "result": {
+              "duration": 5559800,
               "status": "passed"
             },
             "line": 16,
@@ -153,6 +112,30 @@
               "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278118500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Create My Account button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnCreateMyAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344939800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter student information with invalid email address",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentInformationWithInvalidEmailAddress()"
+            },
+            "keyword": "And "
           }
         ]
       }
